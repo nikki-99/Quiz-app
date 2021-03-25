@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', Times, serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top, #c6fff5, #6cdbeb);
+    
+}
+.container{
+   
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h2{
+    color: blue;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20%;
+    text-shadow: 2px 2px 8px  rgb(63, 61, 61);
+}
+.container a{
+    height: 7vh;
+    width: 10%;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+    
+    text-decoration: none;
+    background: #c6fff5;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 1px 2px 8px black;
+}
+.info{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, blue, violet);
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+    position: relative;
+}
+.rules{
+    height: 50vh;
+    width: 40%;
+    background: rgb(138, 241, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+  
+    
+}
+.rules h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: blue;
+    
+}
+.rules ul{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5%;
+
+}
+.rules ul li{
+    padding: 2% 0;
+}
+
+.info-buttons{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 80%;
+    
+}
+.info-buttons a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.area{
+    height: 100vh;
+    width: 100%;
+    background: rgb(255, 154, 174); 
+}
+.area header{
+    
+    background: rgb(253, 253, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.area header span{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1% 0.2%;
+    margin-left: 2%;
+    border: 1px  black;
+    
+    
+}
+.quiz-box{
+    height: 50%;
+    width: 50%;
+    background: rgb(233, 255, 211);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buttons-link{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+.buttons-link a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+.option-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.option1, .option2, .option3, .option4{
+    /* background: chartreuse; */
+    padding: 1.5% 0%;
+   
+
+}
+
+.timer{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end ;
+  
+    /* background: chartreuse; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.timer .time{
+    margin-right: 0.9rem;
+    color: blue;
+    font-size: 30px;
+
+}
+
